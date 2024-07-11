@@ -1,0 +1,141 @@
+body {
+  background-color: white;
+  font-family: Arial, sans-serif;
+}
+
+.home-page {
+  padding: 20px;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+  background-color: gray;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+}
+
+.inosuke-img {
+  float: left;
+  width: 600px;
+  height: auto;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+}
+
+.text-content {
+  flex-grow: 1;
+  padding: 20px;
+  font-size: 16px;
+}
+
+.main-title {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.center-text {
+  flex-grow: 1;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+
+.login-form {
+  background-color: black;
+  color: white;
+  padding: 40px;
+  margin: 10px auto;
+  border: 3px solid black;
+  border-radius: 10px;
+  width: 400px;
+  height: 400px;
+  text-align: center;
+}
+
+.input {
+  display: block;
+  margin-bottom: 50px;
+  padding: 20px;
+  width: 91%;
+  font-size: 18px;
+  text-align: center;
+}
+
+.label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.button {
+  background-color: burlywood;
+  color: white;
+  padding: 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  margin: 10px;
+  padding: 20px;
+  width: calc(50% - 450px);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 200px; /* Ajusta la altura mínima de las tarjetas */
+}
+
+.card .info {
+  text-align: right;
+  width: 70%; /* Ajusta el ancho de la sección de información */
+}
+
+.card h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.card p {
+  font-size: 14px;
+  color: #555;
+}
+
+.card img {
+  max-width: 100px;
+  height: auto;
+  width: 500%; /* Ajusta el ancho de la imagen */
+}
+
+/* Centrar la última tarjeta */
+.container .card:nth-child(7) {
+  width: calc(50% - 450px); /* Ajusta el ancho de la última tarjeta */
+  margin: 0 auto; /* Centra la última tarjeta */
+}
